@@ -6,7 +6,8 @@ A lightweight Python project that solves mazes using BFS and A* search. Compares
 
 These are built directly into the code I gave you:
 
-Key	Action
+## Key	Action
+```
 A	Run A* search
 B	Run BFS search
 1	Easy maze difficulty
@@ -14,3 +15,4 @@ B	Run BFS search
 3	Hard difficulty
 R	Regenerate maze & rerun algorithm
 ESC	Quit the program
+```
