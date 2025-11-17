@@ -8,11 +8,9 @@ These are built directly into the code I gave you:
 
 ## Key	Action
 ```
-A	Run A* search
-B	Run BFS search
-1	Easy maze difficulty
-2	Medium difficulty
-3	Hard difficulty
-R	Regenerate maze & rerun algorithm
-ESC	Quit the program
+C: Toggle comparison mode
+1/2/3: Change difficulty (works in both modes)
+R: Regenerate maze (works in both modes)
+B/A: Switch algorithms (only in single mode)
+ESC: Quit
 ```
