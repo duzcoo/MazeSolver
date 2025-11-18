@@ -1,16 +1,31 @@
 # MazeSolver
-A lightweight Python project that solves mazes using BFS and A* search. Compares path length, explored nodes, and runtime to show how heuristics improve efficiency. Dependency-free, easy to run, and ideal for learning AI pathfinding and search strategies.
+Maze visualizer and solver that compares BFS and A* side by side. Generates a random maze, animates exploration, and reports path length, explored nodes, and runtime so you can see how heuristics change search efficiency.
 
+## Prerequisites
+- Python 3.9+ (tested with 3.11)
+- `pip`
 
-# 🎮 Controls Inside the Window
-
-These are built directly into the code I gave you:
-
-## Key	Action
+## Install
+```bash
+python -m venv .venv
+source .venv/bin/activate  # Windows: .venv\Scripts\activate
+pip install --upgrade pip
+pip install pygame
 ```
-C: Toggle comparison mode
-1/2/3: Change difficulty (works in both modes)
-R: Regenerate maze (works in both modes)
-B/A: Switch algorithms (only in single mode)
-ESC: Quit
+
+## Run
+```bash
+python maze_visual.py
 ```
+
+## Controls
+- `C` toggle comparison mode (BFS left, A* right)
+- `B` switch to BFS (single mode)
+- `A` switch to A* (single mode)
+- `1/2/3` set difficulty easy/medium/hard and regenerate
+- `R` regenerate maze with current settings
+- `ESC` quit
+
+## Notes
+- Start is green, goal is red, explored cells are blue, final path is gold.
+- High difficulty can block the start/goal; if no path exists, stats will show “No path found.”
